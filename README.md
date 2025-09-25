@@ -4,7 +4,7 @@ A **comprehensive Python module** for simulating and analyzing the performance o
 
 ---
 
-![Ramjet Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Ramjet_principle_diagram.svg/640px-Ramjet_principle_diagram.svg.png)  
+![Ramjet Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ramjet_operation.svg/1920px-Ramjet_operation.svg.png)
 *Simplified Ramjet Operation Diagram (Wikipedia)*
 
 ---
@@ -44,5 +44,14 @@ Requires Python 3.8+ and the following packages:
 
 ```bash
 pip install numpy matplotlib
+git clone (https://github.com/aristox2/ramjet-sim/)
+cd ramjet-engine-sim
+
 ```
+
+# Run a sample ramjet analysis
+
+from ramjet_engine import create_sample_analysis
+engine, results = create_sample_analysis()
+
 
