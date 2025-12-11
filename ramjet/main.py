@@ -1,17 +1,3 @@
-"""
-Hypothesis:
-Hydrogen fuel yields higher specific impulse 
-than kerosene under identical inlet and nozzle conditions in a ramjet engine.
-   
-The model includes:
-- Inlet compression and shock wave analysis
-- Combustion chamber thermodynamics
-- Nozzle expansion and thrust calculation
-- Performance parameters and efficiency calculations
-
-Have fun :)
-"""
-
 import numpy as np
 from typing import Dict, Tuple, Optional
 from dataclasses import dataclass
@@ -392,4 +378,5 @@ def create_sample_analysis():
 
 if __name__ == "__main__":
     # Run sample analysis
+
     engine, results = create_sample_analysis()
